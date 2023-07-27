@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <header className='flex items-center justify-between xl:justify-start w-full bg-[#1c229f] p-2 h-[10vh]'>
       <div className='m-4 p-1'>
-        <h2 className='font-bold'>Medicina General</h2>
+        <h2 className='font-bold text-lg'>Medicina General</h2>
       </div>
 
       <nav
@@ -30,9 +30,6 @@ const Header = () => {
         </a>
         <a href='#contact' className='' onClick={closeMenu}>
           Contacto
-        </a>
-        <a href='#map' className='' onClick={closeMenu}>
-          Ubicación
         </a>
       </nav>
       {/* Añadir atributo aria-label al botón */}
