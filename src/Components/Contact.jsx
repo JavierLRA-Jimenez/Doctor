@@ -35,16 +35,8 @@ const Contact = () => {
 
   {/* Mapa o QR */}
   <div className='w-auto h-40 md:w-auto md:h-auto md:col-span-2 flex justify-center'>
-  {/* Inserta el código de inserción del mapa de Google Maps aquí */}
-  <iframe
-    title="Mapa de Google"
-    width="100%"
-    height="100%"
-    style={{ border: 0 }}
-    src="https://www.google.com/maps/embed/v1/place?q=AV%20Argentina%201961%2C%20Antofagasta&key=AIzaSyBfr6C0cCDxtx62NkUyNE_POa2rKiNoHho"
-    allowFullScreen
-  ></iframe>
-</div>
+    <img className='object-cover flex w-[60rem] bg-cover' />
+  </div>
 </section>
 
   )
